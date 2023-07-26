@@ -27,7 +27,7 @@ factory Facture.fromJson(Map<String, dynamic> json){
       nom_client: snapshot['nom_client'] ?? "", 
       services: snapshot['services'] ?? "", 
       montants: snapshot['montants'] ?? "", 
-      date: snapshot['date'] ?? 0);
+      date: snapshot['date'] ?? "");
 
   }
 }
