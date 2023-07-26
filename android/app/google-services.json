@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "766409888810",
+    "project_id": "diamousarl-bff9a",
+    "storage_bucket": "diamousarl-bff9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766409888810:android:bf8be845721da9e28b1f53",
+        "android_client_info": {
+          "package_name": "com.example.diamou_sarl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766409888810-js2vtuhkl3o0a33leum3nam2t7213gm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_jZpnnrur5zmG3Ei9GfF7BkHLoBRJltE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766409888810-js2vtuhkl3o0a33leum3nam2t7213gm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
