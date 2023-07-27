@@ -101,8 +101,6 @@ class _AddFactureState extends State<AddFacture> {
 
   @override
   Widget build(BuildContext context) {
-      final _formKey = new GlobalKey<FormState>();
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('Ajouter une facture'),

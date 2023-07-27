@@ -141,12 +141,12 @@ class _FacturesState extends State<Factures> {
                   }
                   if (snp.hasData) {
                      allFactures = snp.data!.docs
-                           .map((doc) => Facture.fromJson(doc.data() as Map<String, dynamic>)).toList();
+                           .map((doc) => Facture.fromSnapshot(doc.data() as Map<String, dynamic>)).toList();
                      return ListView.builder(
                       itemCount: allFactures.length,
                       itemBuilder: (context, index){
                         print("HHHHHHHHHHHEEEEEELLLLLLLLLLLOOOOOOOOO");
-                           return Text(allFactures[index].nomClient.toString());
+                           return Text(allFactures[index].nom_client.toString());
                       });
                   }else{
                     print(snp);
