@@ -128,7 +128,7 @@ class _AddFactureState extends State<AddFacture> {
               onPressed: () {
                 final DateTime now = DateTime.now();
 
-                final facture = Facture(nom_client: _nameController.text, services: _serviceController.text, montants: int.parse(_priceController.text), date: now.toString());
+                final facture = Facture(nomClient: _nameController.text, services: _serviceController.text, montants: int.parse(_priceController.text), date: now.toString());
                  addFacture(facture);
                 _nameController.text = "";
                 _serviceController.text = "";
